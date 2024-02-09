@@ -21,7 +21,7 @@ if life <= 0 {
 
 //Colisão com estruturas
 if place_meeting(x, y, oBase){
-	oBase.vida -= 5
+	oBase.vida -= 10
 	oBase.alpha = 1
 	instance_destroy()
 }
